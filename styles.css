@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Playwrite MX", sans-serif;
+}
+.hero{
+	position: relative;
+	background: url('simpleimg.jpg') no-repeat center;
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.hero::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.2);
+	z-index: : 1;
+}
+.hero h1{
+	font-size: 50px;
+	color: #white;
+}
+.hero p{
+	font-size: 26px;
+}
+.hero-content{
+	z-index:2
+ }
+.mybtn{
+	background-color:lightpink; 
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+bordor-radious:5 px;
+font-size: 24px;
+}
+.mybtn:hover{
+	background-color: violet;
+}
+
+.about h2{
+	font-family: 35px;
+}
